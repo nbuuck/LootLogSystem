@@ -1,0 +1,62 @@
+/* Some CSS used with permission from Blizzard fan site kit. */
+table.default
+{
+	border-width:1px;
+	border-color:#00A2F1;
+	border-collapse:collapse;
+}
+td
+{
+padding:2px;
+}
+a,a:visited
+{
+	color:#FFCC33;
+}
+body
+{
+background-color:black;
+color:#00A2F1;
+}
+td.clickable:hover
+{
+	background-color:#000066;
+}
+#navigation a 
+{
+	background:url(./images/button_bg2.gif) no-repeat;
+	width:170px;
+	height:25px;
+	display:block;
+	padding-left:25px;
+	margin:5px 0;
+	font-size:13px;
+	color:white;
+	text-decoration:none;
+	line-height:25px;
+}
+
+a.smallNavigation
+{
+	background:url(./images/button_bg2_small.gif) no-repeat;
+	width:70px;
+	height:25px;
+	display:block;
+	padding-left:25px;
+	margin:5px 0;
+	font-size:13px;
+	color:white;
+	text-decoration:none;
+	line-height:25px;
+}
+
+#navigation a:hover { background-position:0 bottom;  }
+a.smallNavigation:hover{ background-position:0 bottom;}
+.horizontal #navigation a { float:left; }
+
+textarea
+{
+    background-color:black;
+    border-color: #00A2F1;
+    color: #00A2F1;
+}

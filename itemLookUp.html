@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>Item Lookup</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="lootEntry.js"></script>
+	<script src="ajax.js"></script>
+</head>
+<body onkeypress="onKeyPress(event);">
+<h3>Item Lookup</h3>
+<input type="text" id="itemDescription" name="itemDescription" />&nbsp;
+<input type="button" value="Search" id="btnSearch" onClick="javascript:doSearchSubmit();" />&nbsp;
+<img src="./images/loading.gif" onload="hideSearchLoading();" id="imgSearchLoading" height="15" width="15"></img>
+<br /><br />
+<table id="searchResults" class="default" border="1" width="285">
+</table>
+<script type="text/javascript">
+	document.getElementById("itemDescription").focus();
+	document.getElementById("searchResults").display='none';
+</script>
+<script src="http://static.wowhead.com/widgets/power.js"></script>
+</body>
+</html>
